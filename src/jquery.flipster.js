@@ -670,9 +670,9 @@
                         });
                 }
 
-                keyboardEvents(self);
-                wheelEvents(_container);
-                touchEvents(_container);
+                //keyboardEvents(self);
+                //wheelEvents(_container);
+                //touchEvents(_container);
             }
 
             // public methods
