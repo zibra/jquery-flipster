@@ -1,4 +1,4 @@
-/*! jQuery.Flipster, v1.1.2 (built 2016-09-27) */
+/*! jQuery.Flipster, v1.1.2 (built 2016-09-28) */
 /* @group Flipster Essential Styles */
 .flipster {
   display: block;
@@ -47,7 +47,6 @@
   background: none;
   border: none;
   padding: 0;
-  z-index: 999;
   cursor: pointer;
   font-size: 15px;
   opacity: 0.5;
