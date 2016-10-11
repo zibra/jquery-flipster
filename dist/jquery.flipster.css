@@ -1,4 +1,4 @@
-/*! jQuery.Flipster, v1.1.2 (built 2016-10-03) */
+/*! jQuery.Flipster, v1.1.2 (built 2016-10-11) */
 /* @group Flipster Essential Styles */
 .flipster {
   display: block;
@@ -43,15 +43,14 @@
   position: absolute;
   top: 50%;
   display: block;
-  appearance: none;
   background: none;
   border: none;
-  padding: 0;
+  padding: 200px 20px;
+  transform: translate(0, -50%);
   cursor: pointer;
   font-size: 15px;
   opacity: 0.5;
   transition: opacity 500ms ease;
-  margin: -1em 2em;
 }
 .flipster__button svg {
   width: 2em;
@@ -66,9 +65,11 @@
 }
 .flipster__button--prev {
   left: 0;
+  padding-right: 150px;
 }
 .flipster__button--next {
   right: 0;
+  padding-left: 150px;
 }
 /* @end */
 
